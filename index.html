@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéShop | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h1>POKÉSHOP</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="checkout.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <!-- Welcome section -->
+    <section class="hero">
+        <h2>Catch Your Favorites!</h2>
+        <p>Choose your Pokémon and add them to your cart.</p>
+    </section>
+
+    <!-- Products -->
+    <main>
+        <h2>Shop Pokémon</h2>
+        <div id="product-list" class="product-grid"></div>
+    </main>
+
+    <!-- Cart notification -->
+    <p id="message" aria-live="polite"></p>
+
+    <footer>
+        <p>PokéShop | W11B JavaScript Project</p>
+    </footer>
+
+    <!-- JS Cookies Library -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+
+    <!-- Our JavaScript -->
+    <script src="app.js"></script>
+
+</body>
+</html>
