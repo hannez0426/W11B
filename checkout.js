@@ -1,6 +1,3 @@
-
-// W11B - Checkout Page
-
 // Select HTML elements
 let cartItems = document.getElementById("cart-items");
 let totalPrice = document.getElementById("total-price");

@@ -1,6 +1,3 @@
-
-// W11B - Pokémon Shopping Cart
-
 // Create an array of Pokémon products
 let products = [
     {
